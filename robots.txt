@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://poetcc.github.io/notea-site/sitemap.xml
