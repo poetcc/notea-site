@@ -3,3 +3,23 @@
 @media(max-width:800px){main{width:min(100% - 28px,680px)}.site-header{height:72px}nav{gap:16px}.hero{grid-template-columns:1fr;min-height:auto;padding:64px 0 70px;gap:58px}h1{font-size:clamp(42px,12vw,60px)}.paper-card{min-height:360px;padding:48px 30px 32px 54px;transform:none}.info-grid{grid-template-columns:1fr}.info-card:first-child,.info-card:last-child{border-radius:14px}.compact-header{margin-bottom:64px}.document-sections section{grid-template-columns:42px 1fr;gap:10px}footer{flex-direction:column;gap:8px}}
 @media(max-width:480px){nav a:first-child{display:none}.hero{padding-top:46px}.lede{font-size:16px}.info-card{padding:30px 24px}.document-intro{font-size:18px}.contact-note{padding:24px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.actions a{transition:none}}
+
+/* Notea family: Sticky Notea */
+.info-grid{grid-template-columns:repeat(3,1fr)}
+.sticky-card-link{background:linear-gradient(145deg,rgba(255,246,169,.72),rgba(215,238,218,.64))}
+.family-label{color:var(--muted);font-size:12px;font-weight:600}
+.sticky-mark{background:linear-gradient(145deg,#e3bb3c,#5f9672);box-shadow:inset 5px 0 rgba(92,91,43,.22),0 8px 18px rgba(68,105,77,.2)}
+.sticky-shell{width:min(1180px,calc(100% - 40px))}
+.sticky-hero{display:grid;grid-template-columns:1fr 1fr;gap:clamp(48px,8vw,104px);align-items:center;min-height:650px;padding:72px 4vw 86px}
+.sticky-board{position:relative;min-height:470px}
+.sticky-note{position:absolute;width:min(320px,76%);min-height:180px;padding:26px 30px;box-shadow:0 22px 44px rgba(42,65,55,.18)}
+.sticky-note span{color:rgba(31,68,51,.56);font-size:11px;font-weight:700;letter-spacing:.14em}
+.sticky-note p{margin:42px 0 0;color:#284c38;font-family:Georgia,"Songti SC",serif;font-size:18px;line-height:1.65}
+.note-1{top:4px;left:2%;z-index:3;background:#fff0a8;transform:rotate(-3deg)}
+.note-2{top:126px;right:0;z-index:2;background:#d9efd9;transform:rotate(3deg)}
+.note-3{left:9%;bottom:0;z-index:1;background:#f6d6dc;transform:rotate(-1deg)}
+.family-note{margin:0 0 84px;padding:54px;border:1px solid rgba(23,56,74,.09);border-radius:18px;background:rgba(255,255,255,.52)}
+.family-note h2{max-width:720px;font-size:clamp(32px,4vw,48px)}
+.family-note>p:last-child{max-width:760px;color:var(--muted);font-size:17px;line-height:1.9}
+.sticky-document-shell .eyebrow,.sticky-document-shell .section-number{color:#557f61}
+@media(max-width:800px){.info-grid{grid-template-columns:1fr}.sticky-hero{grid-template-columns:1fr;min-height:auto;padding:64px 0 74px;gap:64px}.sticky-board{min-height:440px}}
